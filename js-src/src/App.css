@@ -1,0 +1,120 @@
+.App {
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  input, select, button, textarea, .WebSocketCheckboxes {
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+
+  .MidSpacedContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .MidSpacedContainerChild {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+
+  /* button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+  } */
+  
+  input[type="text"] {
+    flex-grow: 1;
+    min-width: 10px;
+  }
+  
+  .WebSocketConsole {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .WebSocketConsole > div:first-child,
+  .WebSocketConsole > div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    flex-grow: 1;
+    resize: none;
+  }
+  
+
+  .rightAlignedForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .topCenteredForm {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    padding-top: 20px; /* Adjust the top padding as needed */
+  }
+  
+  .rightAlignedForm input {
+    width: 300px; /* Adjust the width as needed */
+    margin-bottom: 10px; /* Space between inputs */
+  }
+  
+  .rightAlignedForm label {
+    text-align: right;
+    width: 100%;
+  }
+  
+  .message {
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 2px solid;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message.success {
+    background-color: #d4edda; /* Pale green */
+    border-color: #28a745; /* Darker green for the border */
+    color: #155724; /* Dark green text color */
+  }
+  
+  .message.error {
+    background-color: #f8d7da; /* Pale red */
+    border-color: #dc3545; /* Darker red for the border */
+    color: #721c24; /* Dark red text color */
+  }
+  
+  
