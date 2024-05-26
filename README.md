@@ -42,6 +42,14 @@ A pre-built version of the Vite web page is included. If you need to build a cus
 
 ### Custom-built Vite Web Page
 
+cd into the `./js-src/` directory and use 
+
+```bash
+npm install
+``` 
+
+to install the dependencies.
+
 ### Script: `compile_page_bytes.sh`
 
 To customize and build the Vite web page, follow these steps:
@@ -72,7 +80,7 @@ To customize and build the Vite web page, follow these steps:
 
    - **`COMPRESSION_ENABLED`**: Enable GZ compression for the HTML file. This reduces the size of the HTML file, improving load times and performance.
 
-3. **Run the Script**: Execute the script to build the Vite web page:
+3. **Run the Script**: Execute the script to build the Vite web page from the root directory of the project:
    ```bash
    ./compile_page_bytes.sh
    ```
