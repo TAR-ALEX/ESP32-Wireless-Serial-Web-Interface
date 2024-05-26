@@ -1,4 +1,4 @@
-# ESP32 Web Serial Interface
+# ESP32-Wireless-Serial-Web-Interface
 
 ## Overview
 
